@@ -1,13 +1,9 @@
 package com.example.tests;
 
-import java.util.regex.Pattern;
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class GroupCreationTests extends TestBase{
+public class AlsoGroupCreationTests extends TestBase{
+ 
   @Test
   public void testNonEmptyGroupGreation() throws Exception {
     openMainPage();
